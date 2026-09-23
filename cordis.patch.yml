@@ -1,0 +1,16 @@
+# dsh-plugin-mermaid-gb-svg 作为 profile 层的补丁：
+# 把本插件（lib/index.js）插进 loader 的行列表。
+#
+# 该文件由 package.json 的 dsh.bundle.patch 声明；安装进 profile 后
+# （dsh plugin --profile web add dsh-plugin-mermaid-gb-svg）
+# 会被自动追加到 dsh.profile.bundles，不需要手工编辑 profile 的 cordis.patch.yml。
+
+- insert:
+    - id: mermaid-gb-svg
+      name: dsh-plugin-mermaid-gb-svg
+      # 可选：部署级默认值
+      # config:
+      #   font: "SimSun, '宋体', 'Microsoft YaHei', sans-serif"
+      #   fontSize: 14
+      #   stroke: 1.6
+      #   paper: none

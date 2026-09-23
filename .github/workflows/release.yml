@@ -1,0 +1,30 @@
+# 发布到 npm：打 tag（如 v0.1.0）即自动跑测试并发布。
+# 需要仓库 secret：NPM_TOKEN（npm 的 Automation token，granular access token 亦可）。
+name: release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write          # npm provenance
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+      - name: 安装开发依赖（peer 依赖由 devDependencies 提供）
+        run: npm install --no-audit --no-fund
+      - name: 跑测试
+        run: npm test
+      - name: 发布
+        run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

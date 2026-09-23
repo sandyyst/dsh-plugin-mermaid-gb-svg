@@ -1,0 +1,19 @@
+graph TD
+    S0([起止]) --> P1[处理]
+    P1 --> D1{判断}
+    D1 -- 是 --> I1[/数据 输入输出/]
+    D1 -- 否 --> I2[\反向平行四边形\]
+    I1 --> M1@{ shape: manual-input, label: "人工输入" }
+    M1 --> M2@{ shape: manual-operation, label: "人工操作" }
+    M2 --> H1{{准备}}
+    H1 --> R1[[预定义处理]]
+    R1 --> C1@{ shape: cylinder, label: "直接存取存储" }
+    C1 --> N1@{ shape: internal-storage, label: "内部存储" }
+    N1 --> DO1@{ shape: doc, label: "文档" }
+    DO1 --> DO2@{ shape: docs, label: "多文档" }
+    DO2 --> DI1@{ shape: display, label: "显示" }
+    DI1 --> DE1@{ shape: delay, label: "延迟" }
+    DE1 --> CO1@{ shape: comment, label: "注释" }
+    CO1 --> CN1@{ shape: connector, label: "A" }
+    CN1 --> OP1@{ shape: off-page, label: "B" }
+    OP1 --> E0([结束])
