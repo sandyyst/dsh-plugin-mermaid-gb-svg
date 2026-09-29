@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-mermaid-gb-svg",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "DSH 插件：Mermaid 流程图 → GB/T 1526-1989（等同 ISO 5807）国标流程图 SVG，符号合规、正交走线、超 A4/A3 自动分页。DeepSeek Harness plugin: Mermaid flowcharts to GB/T 1526-1989 (ISO 5807) compliant flowchart SVG with A4/A3 pagination.",
   "keywords": [
     "dsh",
@@ -76,8 +76,8 @@
   },
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.2",
-    "@deepseek-ai/dsh-sandbox": "^0.1.5-rc.1",
-    "@deepseek-ai/dsh-tools": "^0.1.5-rc.1",
+    "@deepseek-ai/dsh-sandbox": ">=0.0.1-rc.1 <0.0.2-0 || >=0.1.5-0 <0.1.6-0 || >=0.1.6-0 <0.1.7-0 || >=0.1.7-0 <0.1.8-0 || >=0.1.8-0 <0.2.0-0",
+    "@deepseek-ai/dsh-tools": ">=0.0.1-rc.1 <0.0.2-0 || >=0.1.5-0 <0.1.6-0 || >=0.1.6-0 <0.1.7-0 || >=0.1.7-0 <0.1.8-0 || >=0.1.8-0 <0.2.0-0",
     "@deepseek-ai/schemastery": "^3.18.2"
   },
   "peerDependenciesMeta": {

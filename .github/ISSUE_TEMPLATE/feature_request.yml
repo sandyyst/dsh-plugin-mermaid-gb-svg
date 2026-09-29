@@ -1,0 +1,48 @@
+name: 💡 功能建议 / 画法需求
+description: 想要新的符号、新参数、新输出格式，或对自动布局有改进想法
+title: '[建议] '
+labels: ['enhancement']
+body:
+  - type: textarea
+    id: scene
+    attributes:
+      label: 你想解决什么场景
+      description: 描述实际工作流，比描述"想要某个功能"更有用
+      placeholder: |
+        我们要把 30 多张流程图放进一份 GJB 文档里，每张都要 A4 打印，
+        现在的问题是 …
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你期望的用法
+      description: 参数名/命令示例，或图上应该长什么样
+      placeholder: |
+        mermaid_to_gb_svg({ source: "...", out: "a.svg", paper: "a4", 每页固定 5 层 })
+    validations:
+      required: false
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 类型
+      options:
+        - 新图形符号
+        - 布局 / 走线 / 转折数
+        - 幅面与分页
+        - 字体 / 线宽 / 制图规范
+        - 输入解析（Mermaid 语法支持）
+        - 集成（导出格式、批量、CI）
+        - 其他
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: 参与意愿
+      options:
+        - label: 如果需要，我可以提供样例图 / 标准依据
+        - label: 我可以帮忙测试预览版

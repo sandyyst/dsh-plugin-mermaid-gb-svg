@@ -135,6 +135,20 @@ npm test        # test/engine.test.mjs + test/plugin.test.mjs
   但需要 `@deepseek-ai/dsh-tools`、`@deepseek-ai/dsh-sandbox`、`@deepseek-ai/schemastery`
   这几个 peer 依赖可解析（本地开发在包内 `node_modules/@deepseek-ai` 联接到 dsh 安装目录即可）。
 
+## 反馈 / 意见
+
+这个工具往哪走，基本由反馈决定——尤其欢迎**国标符号勘误**，因为 GB/T 1526-1989 的细节很容易画得"差一点"。
+
+| 渠道 | 适合提什么 |
+|---|---|
+| [Issues](https://github.com/sandyyst/dsh-plugin-mermaid-gb-svg/issues/new/choose) | 报错、**符号勘误**（有专门的"标准勘误"模板，请附条款或图号）、功能建议 |
+| [Discussions](https://github.com/sandyyst/dsh-plugin-mermaid-gb-svg/discussions) | 用法提问、画法/排版讨论、还没想清楚的想法 |
+| sandyyst@hotmail.com | 不方便公开说的 |
+
+**提问题时请附上 mermaid 源码** —— 一句话描述 + 那段 `.mmd` 基本就能复现；再带上生成的图、工具返回的 `warnings`、插件版本号更好。
+
+工具如果报了几何告警，返回信息里已经带上了 Issues 链接——那一刻的反馈最有价值。
+
 ## 许可
 
 MIT

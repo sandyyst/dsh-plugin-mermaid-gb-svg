@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 用法提问 / 画法讨论
+    url: https://github.com/sandyyst/dsh-plugin-mermaid-gb-svg/discussions
+    about: 不确定怎么用、想讨论流程图画法或排版，请走 Discussions（Issues 留给可复现的问题）
+  - name: 📦 npm 页面（版本与安装说明）
+    url: https://www.npmjs.com/package/dsh-plugin-mermaid-gb-svg
+    about: 最新版本、安装命令、README
+  - name: 📐 GB/T 1526-1989 标准原文（官方查询页）
+    url: https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=D19A1DF7C8A8058E26EC8DFE9EBD001B
+    about: 提"符号画得不对"之前，先在这里核对标准条款，引用图号/条款能大幅加快处理

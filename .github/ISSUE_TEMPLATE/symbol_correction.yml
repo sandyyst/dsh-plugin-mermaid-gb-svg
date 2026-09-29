@@ -1,0 +1,53 @@
+name: 📐 国标符号勘误（GB/T 1526-1989）
+description: 某个图形符号的形状、比例、方向不符合 GB/T 1526-1989 / ISO 5807
+title: '[标准] '
+labels: ['standard-compliance']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这类反馈最有价值，也最容易被采纳——**请尽量给出标准依据**：GB/T 1526-1989 的图号/条款，
+        或 ISO 5807:1985 的对应条目（本工具是按 ISO 5807 实现的，两者是等同采用关系）。
+        附上标准截图或官方链接会大幅加快处理。
+
+        标准官方查询页：https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=D19A1DF7C8A8058E26EC8DFE9EBD001B
+
+  - type: input
+    id: symbol
+    attributes:
+      label: 哪个符号
+      placeholder: 换页连接符（异地连接符）/ 判断框 / 人工输入 / 文档 …
+    validations:
+      required: true
+
+  - type: textarea
+    id: standard
+    attributes:
+      label: 标准怎么规定的
+      description: 条款/图号 + 描述，或贴标准里的图形示意
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 本工具现在画成什么样
+      description: 可以贴生成的 SVG 片段（polygon points / path d）
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 你建议怎么改（可选）
+      description: 例如"五边形的尖端应朝流向，肩部比例约为 ……"
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: 影响范围
+      options:
+        - label: 只影响该符号的观感
+        - label: 影响合规性判定（会被评审打回的那种）
+        - label: 我可以在标准原文里指出确切位置

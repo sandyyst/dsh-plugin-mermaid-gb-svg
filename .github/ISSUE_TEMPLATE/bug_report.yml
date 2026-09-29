@@ -1,0 +1,65 @@
+name: 🐞 报错 / 转出来的图不对
+description: 工具报错、安装失败，或生成的 SVG 有明显问题（重叠、线穿越图形、缺符号）
+title: '[Bug] '
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **附上 mermaid 源码是最有帮助的一步** —— 绝大多数问题用它就能复现。
+        源码可以脱敏（把真实名称换掉即可），但要保留形状括号 `(( ))` `[ ]` `{ }` `[/ /]` 和连线标注。
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Mermaid 源码
+      description: 完整的流程图源码（或 .md 里的那个 ```mermaid 代码块）
+      render: text
+      placeholder: |
+        graph TD
+          A((开始)) --> B[创建配置对象]
+          B --> C{遍历列表模型}
+          C -- 是 --> D[添加目录路径到属性]
+          D --> C
+          C -- 否 --> E((结束))
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望的结果 vs 实际看到的结果
+      description: 越具体越好（"判断框的'否'分支应该从右顶点向右出，实际从底顶点走了"）
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 插件版本
+      description: `npm view dsh-plugin-mermaid-gb-svg version` 或 dsh 插件页显示的版本
+      placeholder: 0.1.2
+    validations:
+      required: true
+
+  - type: input
+    id: env
+    attributes:
+      label: DSH 版本 / 系统 / Node
+      placeholder: dsh 0.1.5-rc.2 · Windows 11 · Node 22.23
+
+  - type: textarea
+    id: output
+    attributes:
+      label: 工具返回的 summary / warnings / 报错
+      description: 工具返回里 `warnings` 数组的内容对定位最有用
+      render: text
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已附上能复现的 mermaid 源码
+          required: true
+        - label: 我用的不是被手动改过的 SVG（本工具的输出是覆盖式生成的）

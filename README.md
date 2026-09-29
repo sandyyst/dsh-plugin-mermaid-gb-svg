@@ -121,6 +121,24 @@ npm test        # test/engine.test.mjs + test/plugin.test.mjs
 `lib/engine.js` is **generated** from the CLI version (`tools/mermaid2gb-svg.js`) so both stay in
 sync; edit the CLI and regenerate rather than editing the engine directly.
 
+## Feedback
+
+Feedback is what decides what gets built next — especially **standard-compliance corrections**, since
+GB/T 1526-1989 has details that are easy to get subtly wrong.
+
+| Channel | Use it for |
+|---|---|
+| [Issues](https://github.com/sandyyst/dsh-plugin-mermaid-gb-svg/issues/new/choose) | Bugs, **symbol corrections** (there is a dedicated template — please cite the clause/figure), feature requests |
+| [Discussions](https://github.com/sandyyst/dsh-plugin-mermaid-gb-svg/discussions) | Usage questions, layout/typography opinions, open-ended ideas |
+| sandyyst@hotmail.com | Anything you would rather not post publicly |
+
+**When reporting a problem, attach the Mermaid source.** A one-line description plus the `.mmd` is
+usually enough to reproduce it — the generated diagram, the tool's `warnings` array, and your plugin
+version help too.
+
+If the tool reports geometry warnings, the output already carries the link to the issue tracker —
+that is the moment the report is most useful.
+
 ## License
 
 MIT
