@@ -23,6 +23,14 @@
     "a4"
   ],
   "author": "sandyyst",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandyyst/dsh-plugin-mermaid-gb-svg.git"
+  },
+  "homepage": "https://github.com/sandyyst/dsh-plugin-mermaid-gb-svg#readme",
+  "bugs": {
+    "url": "https://github.com/sandyyst/dsh-plugin-mermaid-gb-svg/issues"
+  },
   "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
