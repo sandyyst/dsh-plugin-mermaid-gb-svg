@@ -1,10 +1,23 @@
 # dsh-plugin-mermaid-gb-svg
 
+[![npm version](https://img.shields.io/npm/v/dsh-plugin-mermaid-gb-svg?color=blue)](https://www.npmjs.com/package/dsh-plugin-mermaid-gb-svg)
+[![license](https://img.shields.io/npm/l/dsh-plugin-mermaid-gb-svg)](LICENSE)
+[![topic: dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-1f6feb)](https://github.com/topics/dsh-plugin)
+[![GB/T 1526-1989](https://img.shields.io/badge/symbols-GB%2FT%201526--1989-red)](https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=D19A1DF7C8A8058E26EC8DFE9EBD001B)
+
 把 **Mermaid 流程图**转换成符合 **GB/T 1526-1989**（等同采用 ISO 5807:1985）图形符号的 **SVG**，
 并作为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件向模型暴露一个工具。
 
 > 说人话：你给模型一段 mermaid（或一个 `.md`），它给你一张黑白、正交走线、符号合规的国标流程图，
 > 放不下 A4 还会自动拆成多张并画好换页连接符。
+
+## 效果预览
+
+| GB/T 1526-1989 符号对照 | 生成的流程图 |
+|---|---|
+| <img src="examples/gb-1526-symbols.svg" alt="GB/T 1526-1989 图形符号" width="240"> | <img src="examples/attribute-config.svg" alt="生成的流程图" width="300"> |
+
+两张 SVG 都是本工具生成的，源 `.mmd` 在 [`examples/`](examples/) 里。
 
 ## 安装
 

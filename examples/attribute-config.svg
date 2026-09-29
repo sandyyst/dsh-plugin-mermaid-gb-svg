@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="522" height="780" viewBox="0 0 522 780" role="img" aria-labelledby="figTitle">
+  <title id="figTitle">图 1  属性配置文件创建流程</title>
+  <rect x="0" y="0" width="522" height="780" fill="#FFFFFF"/>
+  <!-- 图形符号（GB/T 1526） -->
+  <g font-family="SimSun, &apos;宋体&apos;, &apos;Microsoft YaHei&apos;, sans-serif" font-size="14" fill="#000000" text-anchor="middle" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(266.4,30)">
+  <rect x="-32" y="0" width="64" height="42" rx="21" ry="21" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="-84" y="114" width="168" height="46" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="0,232 78,268 0,304 -78,268" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="-204" y="389" width="162" height="46" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="105,376 204,412 105,448 6,412" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="-151" y="520" width="134" height="46" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="-32" y="638" width="64" height="42" rx="21" ry="21" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="31" y="520" width="120" height="46" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M0,42 L0,104" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,160 L0,222" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,304 L0,340 L-123,340 L-123,379" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M-204,412 L-236.4,412 L-236.4,206.8 L0,206.8 L0,222" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M78,268 L105,268 L105,366" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M105,448 L105,484 L-84,484 L-84,510" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M-84,566 L-84,602 L0,602 L0,628" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M204,412 L204,498 L91,498 L91,510" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M91,566 L91,616 L0,616 L0,628" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <polygon points="-4.5,104 4.5,104 0,114" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,222 4.5,222 0,232" fill="#000000" stroke="none"/>
+  <polygon points="-127.5,379 -118.5,379 -123,389" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,222 4.5,222 0,232" fill="#000000" stroke="none"/>
+  <polygon points="100.5,366 109.5,366 105,376" fill="#000000" stroke="none"/>
+  <polygon points="-88.5,510 -79.5,510 -84,520" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,628 4.5,628 0,638" fill="#000000" stroke="none"/>
+  <polygon points="86.5,510 95.5,510 91,520" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,628 4.5,628 0,638" fill="#000000" stroke="none"/>
+  <text x="0" y="21" dy="0.35em">开始</text>
+  <text x="0" y="137" dy="0.35em">创建Properties对象</text>
+  <text x="0" y="268" dy="0.35em">遍历列表模型</text>
+  <text x="-123" y="412" dy="0.35em">添加目录路径到属性</text>
+  <text x="105" y="412" dy="0.35em">尝试打开配置文件</text>
+  <text x="-84" y="543" dy="0.35em">保存属性到文件</text>
+  <text x="0" y="659" dy="0.35em">结束</text>
+  <text x="91" y="543" dy="0.35em">显示错误信息</text>
+  <rect x="-15" y="342" width="18" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="-6" y="352" dy="0.35em" font-size="12">是</text>
+  <rect x="108" y="273" width="18" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="117" y="283" dy="0.35em" font-size="12">否</text>
+  <rect x="90" y="486" width="18" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="99" y="496" dy="0.35em" font-size="12">是</text>
+  <rect x="207" y="444" width="18" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="216" y="454" dy="0.35em" font-size="12">否</text>
+    </g>
+  </g>
+  <text x="261" y="763" text-anchor="middle" fill="#000000" font-family="SimHei, &apos;黑体&apos;, &apos;Microsoft YaHei&apos;, sans-serif" font-size="12">图 1  属性配置文件创建流程</text>
+</svg>

@@ -1,8 +1,21 @@
 # dsh-plugin-mermaid-gb-svg
 
+[![npm version](https://img.shields.io/npm/v/dsh-plugin-mermaid-gb-svg?color=blue)](https://www.npmjs.com/package/dsh-plugin-mermaid-gb-svg)
+[![license](https://img.shields.io/npm/l/dsh-plugin-mermaid-gb-svg)](LICENSE)
+[![topic: dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-1f6feb)](https://github.com/topics/dsh-plugin)
+[![GB/T 1526-1989](https://img.shields.io/badge/symbols-GB%2FT%201526--1989-red)](https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=D19A1DF7C8A8058E26EC8DFE9EBD001B)
+
 A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that turns **Mermaid
 flowcharts** into **GB/T 1526-1989** compliant **SVG** (the Chinese national standard, identical to
 ISO 5807:1985), and exposes it to the model as one tool.
+
+## Preview
+
+| GB/T 1526-1989 symbol chart | Generated flowchart |
+|---|---|
+| <img src="examples/gb-1526-symbols.svg" alt="GB/T 1526-1989 symbols" width="240"> | <img src="examples/attribute-config.svg" alt="Generated flowchart" width="300"> |
+
+Both SVGs are produced by this tool — the source `.mmd` files are in [`examples/`](examples/).
 
 ## Install
 

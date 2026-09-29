@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="423" height="2234" viewBox="0 0 423 2234" role="img" aria-labelledby="figTitle">
+  <title id="figTitle">图 2  GB/T 1526-1989 图形符号对照</title>
+  <rect x="0" y="0" width="423" height="2234" fill="#FFFFFF"/>
+  <!-- 图形符号（GB/T 1526） -->
+  <g font-family="SimSun, &apos;宋体&apos;, &apos;Microsoft YaHei&apos;, sans-serif" font-size="14" fill="#000000" text-anchor="middle" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(211.5,30)">
+  <rect x="-32" y="0" width="64" height="42" rx="21" ry="21" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="-32" y="114" width="64" height="46" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="0,232 36,268 0,304 -36,268" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="-166.5,376 -28.5,376 -43.5,422 -181.5,422" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="19.5,376 166.5,376 181.5,422 34.5,422" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="-54,508 54,494 54,548 -54,548" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="-58,620 58,620 37,666 -37,666" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="-31,738 31,738 46,761 31,784 -31,784 -46,761" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="-59" y="856" width="118" height="46" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M-50,856 L-50,902" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M50,856 L50,902" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <polygon points="-60,982 -60,982 -55.43,978.94 -42.43,976.34 -22.96,974.61 0,974 22.96,974.61 42.43,976.34 55.43,978.94 60,982 60,1026 60,1026 55.43,1029.06 42.43,1031.66 22.96,1033.39 0,1034 -22.96,1033.39 -42.43,1031.66 -55.43,1029.06 -60,1026" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M60,982 L55.43,985.06 L42.43,987.66 L22.96,989.39 L0,990 L-22.96,989.39 L-42.43,987.66 L-55.43,985.06 L-60,982" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="-51" y="1106" width="102" height="56" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M-41,1106 L-41,1162" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M-51,1116 L51,1116" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <polygon points="-36,1234 36,1234 36,1285 30,1288 24,1290.2 18,1291 12,1290.2 6,1288 0,1285 -6,1282 -12,1279.8 -18,1279 -24,1279.8 -30,1282 -36,1285 -36,1234" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="-49,1384 31,1384 31,1416 23,1418.94 15,1420.76 7,1420.76 -1,1418.94 -9,1416 -17,1413.06 -25,1411.24 -33,1411.24 -41,1413.06 -49,1416 -49,1384" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M-40,1375 L40,1375 L40,1425" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M-31,1366 L49,1366 L49,1434" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <polygon points="-29,1506 27.2,1506 27.2,1506 32.1,1507.13 36.53,1510.39 40.04,1515.48 42.29,1521.89 43.07,1529 42.29,1536.11 40.04,1542.52 36.53,1547.61 32.1,1550.87 27.2,1552 -29,1552 -41,1529" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="-41,1624 18,1624 18,1624 23.95,1624.78 29.5,1627.08 34.26,1630.74 37.92,1635.5 40.22,1641.05 41,1647 40.22,1652.95 37.92,1658.5 34.26,1663.26 29.5,1666.92 23.95,1669.22 18,1670 -41,1670" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polyline points="-38,1742 38,1742 38,1788 -38,1788" fill="none" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M-38,1742 L-38,1788" fill="none" stroke="#000000" stroke-width="1.3" stroke-dasharray="5,3" stroke-linejoin="round" stroke-linecap="round"/>
+  <polygon points="19,1879 18.52,1883.23 17.12,1887.24 14.85,1890.85 11.85,1893.85 8.24,1896.12 4.23,1897.52 0,1898 -4.23,1897.52 -8.24,1896.12 -11.85,1893.85 -14.85,1890.85 -17.12,1887.24 -18.52,1883.23 -19,1879 -18.52,1874.77 -17.12,1870.76 -14.85,1867.15 -11.85,1864.15 -8.24,1861.88 -4.23,1860.48 0,1860 4.23,1860.48 8.24,1861.88 11.85,1864.15 14.85,1867.15 17.12,1870.76 18.52,1874.77 19,1879" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="-21,1970 21,1970 21,2007 0,2020 -21,2007" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="-32" y="2092" width="64" height="42" rx="21" ry="21" fill="#FFFFFF" stroke="#000000" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M0,42 L0,104" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,160 L0,222" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,304 L0,340 L-105,340 L-105,366" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M36,268 L100.5,268 L100.5,366" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M-105,422 L-105,458 L0,458 L0,484" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,548 L0,610" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,666 L0,728" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,784 L0,846" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,902 L0,964" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,1034 L0,1096" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,1162 L0,1224" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,1294 L0,1356" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,1434 L0,1496" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,1552 L0,1614" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,1670 L0,1732" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,1788 L0,1850" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,1898 L0,1960" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0,2020 L0,2082" fill="none" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+  <polygon points="-4.5,104 4.5,104 0,114" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,222 4.5,222 0,232" fill="#000000" stroke="none"/>
+  <polygon points="-109.5,366 -100.5,366 -105,376" fill="#000000" stroke="none"/>
+  <polygon points="96,366 105,366 100.5,376" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,484 4.5,484 0,494" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,610 4.5,610 0,620" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,728 4.5,728 0,738" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,846 4.5,846 0,856" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,964 4.5,964 0,974" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,1096 4.5,1096 0,1106" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,1224 4.5,1224 0,1234" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,1356 4.5,1356 0,1366" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,1496 4.5,1496 0,1506" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,1614 4.5,1614 0,1624" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,1732 4.5,1732 0,1742" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,1850 4.5,1850 0,1860" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,1960 4.5,1960 0,1970" fill="#000000" stroke="none"/>
+  <polygon points="-4.5,2082 4.5,2082 0,2092" fill="#000000" stroke="none"/>
+  <text x="0" y="21" dy="0.35em">起止</text>
+  <text x="0" y="137" dy="0.35em">处理</text>
+  <text x="0" y="268" dy="0.35em">判断</text>
+  <text x="-105" y="399" dy="0.35em">数据 输入输出</text>
+  <text x="100.5" y="399" dy="0.35em">反向平行四边形</text>
+  <text x="0" y="521" dy="0.35em">人工输入</text>
+  <text x="0" y="643" dy="0.35em">人工操作</text>
+  <text x="0" y="761" dy="0.35em">准备</text>
+  <text x="0" y="879" dy="0.35em">预定义处理</text>
+  <text x="0" y="1004" dy="0.35em">直接存取存储</text>
+  <text x="0" y="1134" dy="0.35em">内部存储</text>
+  <text x="0" y="1264" dy="0.35em">文档</text>
+  <text x="0" y="1400" dy="0.35em">多文档</text>
+  <text x="0" y="1529" dy="0.35em">显示</text>
+  <text x="0" y="1647" dy="0.35em">延迟</text>
+  <text x="0" y="1765" dy="0.35em">注释</text>
+  <text x="0" y="1879" dy="0.35em">A</text>
+  <text x="0" y="1995" dy="0.35em">B</text>
+  <text x="0" y="2113" dy="0.35em">结束</text>
+  <rect x="-15" y="342" width="18" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="-6" y="352" dy="0.35em" font-size="12">是</text>
+  <rect x="69" y="246" width="18" height="20" fill="#FFFFFF" stroke="none"/>
+  <text x="78" y="256" dy="0.35em" font-size="12">否</text>
+    </g>
+  </g>
+  <text x="211.5" y="2217" text-anchor="middle" fill="#000000" font-family="SimHei, &apos;黑体&apos;, &apos;Microsoft YaHei&apos;, sans-serif" font-size="12">图 2  GB/T 1526-1989 图形符号对照</text>
+</svg>
