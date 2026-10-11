@@ -1,5 +1,17 @@
-# 发布到 npm：打 tag（如 v0.1.0）即自动跑测试并发布。
-# 需要仓库 secret：NPM_TOKEN（npm 的 Automation token，granular access token 亦可）。
+# 发布到 npm：打 tag（如 v0.1.4）即自动跑测试并发布。
+#
+# 采用 npm Trusted Publishing（OIDC），**不需要任何 NPM_TOKEN**：
+#   1. 打开 https://www.npmjs.com/package/dsh-plugin-mermaid-gb-svg
+#      → Settings → Trusted Publisher → 选 GitHub Actions
+#        Organization or user : sandyyst
+#        Repository            : dsh-plugin-mermaid-gb-svg
+#        Workflow filename     : release.yml
+#        Environment name      : （留空）
+#   2. git tag v0.1.4 && git push --tags
+#
+# 好处：没有长期 token 可泄漏、不会过期、无需 OTP，且自动生成 provenance 签名。
+# 注意：不要设置 NODE_AUTH_TOKEN —— 空的 token 会让 npm 报 404（本仓库踩过一次），
+#       走 OIDC 时不设置它才是正确做法。
 name: release
 
 on:
@@ -13,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      id-token: write          # npm provenance
+      id-token: write          # Trusted Publishing / provenance 必需，勿删
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,7 +36,5 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: 跑测试
         run: npm test
-      - name: 发布
+      - name: 发布（OIDC，无需 token）
         run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
