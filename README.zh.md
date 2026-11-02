@@ -137,6 +137,22 @@ npm test        # test/engine.test.mjs + test/plugin.test.mjs
   但需要 `@deepseek-ai/dsh-tools`、`@deepseek-ai/dsh-sandbox`、`@deepseek-ai/schemastery`
   这几个 peer 依赖可解析（本地开发在包内 `node_modules/@deepseek-ai` 联接到 dsh 安装目录即可）。
 
+## 兼容性
+
+两条 Harness 版本线都实测通过（引擎 8 项 + 插件 6 项，全绿）：
+
+| Harness 线 | `@deepseek-ai/dsh-tools` / `dsh-sandbox` | `@deepseek-ai/cordis` | `@deepseek-ai/schemastery` |
+|---|---|---|---|
+| 0.1.5-rc.x | 0.1.5-rc.x | 4.0.4 | 3.18.4 |
+| 0.2.0-rc.2 | 0.2.0-rc.2 | 4.0.4 | 3.18.4 |
+| **0.2.1-rc.5**（当前 `latest` / `next`） | 0.2.1-rc.5 | 4.0.5 | 3.18.5 |
+| **0.2.2-alpha.2**（当前 `alpha`） | 0.2.2-alpha.2 | 4.0.6-alpha.1 | 3.18.6-alpha.1 |
+
+`@deepseek-ai/*` 全部声明为**可选 peer 依赖**：插件直接用宿主自带的那一份，不会在 profile 里
+再装一套运行时。peer 范围把每条 minor 线都显式列了出来——因为 npm 只在范围里存在与该预发布版本
+`major.minor.patch` 完全一致的比较符时才放行它（`^0.2.0-rc.2` 匹配不到 `0.2.1-rc.5`，连 `*` 也匹配不到）。
+Harness 每开一条新线，这里会补上分支；实测记录见 [PUBLISHING.zh.md](PUBLISHING.zh.md)。
+
 ## 反馈 / 意见
 
 这个工具往哪走，基本由反馈决定——尤其欢迎**国标符号勘误**，因为 GB/T 1526-1989 的细节很容易画得"差一点"。

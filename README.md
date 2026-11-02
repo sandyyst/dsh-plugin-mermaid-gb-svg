@@ -123,6 +123,24 @@ npm test        # test/engine.test.mjs + test/plugin.test.mjs
 `lib/engine.js` is **generated** from the CLI version (`tools/mermaid2gb-svg.js`) so both stay in
 sync; edit the CLI and regenerate rather than editing the engine directly.
 
+## Compatibility
+
+Tested against both current Harness lines — the engine suite (8) and the plugin suite (6) pass on each:
+
+| Harness line | `@deepseek-ai/dsh-tools` / `dsh-sandbox` | `@deepseek-ai/cordis` | `@deepseek-ai/schemastery` |
+|---|---|---|---|
+| 0.1.5-rc.x | 0.1.5-rc.x | 4.0.4 | 3.18.4 |
+| 0.2.0-rc.2 | 0.2.0-rc.2 | 4.0.4 | 3.18.4 |
+| **0.2.1-rc.5** (current `latest` / `next`) | 0.2.1-rc.5 | 4.0.5 | 3.18.5 |
+| **0.2.2-alpha.2** (current `alpha`) | 0.2.2-alpha.2 | 4.0.6-alpha.1 | 3.18.6-alpha.1 |
+
+Every `@deepseek-ai/*` package is an **optional peer dependency**: the plugin uses the host's own
+copy, so no second runtime is installed inside the profile. The peer ranges list each Harness line
+explicitly, because npm only admits a prerelease version when the range carries a comparator on that
+exact `major.minor.patch` tuple — `^0.2.0-rc.2` does **not** match `0.2.1-rc.5`, and neither does `*`.
+When the Harness opens a new line the range is extended; the matrix in
+[PUBLISHING.zh.md](PUBLISHING.zh.md) records what has actually been run.
+
 ## Feedback
 
 Feedback is what decides what gets built next — especially **standard-compliance corrections**, since
