@@ -9,6 +9,9 @@ A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin tha
 flowcharts** into **GB/T 1526-1989** compliant **SVG** (the Chinese national standard, identical to
 ISO 5807:1985), and exposes it to the model as one tool.
 
+> **Using it?** [Star the repo](https://github.com/sandyyst/dsh-plugin-mermaid-gb-svg) — download
+> counters are mostly mirrors and scanners, so a star is the one unambiguous "a person was here".
+
 ## Preview
 
 ![Mermaid flowcharts to GB/T 1526-1989 compliant SVG](assets/promo-compare.png)

@@ -11,6 +11,9 @@
 > 说人话：你给模型一段 mermaid（或一个 `.md`），它给你一张黑白、正交走线、符号合规的国标流程图，
 > 放不下 A4 还会自动拆成多张并画好换页连接符。
 
+> **在用？[点个 ⭐](https://github.com/sandyyst/dsh-plugin-mermaid-gb-svg)** —— 下载数里混着镜像同步和
+> 安全扫描器，一颗 star 才是唯一确凿的"真人来过"。
+
 ## 效果预览
 
 ![Mermaid 流程图转 GB/T 1526-1989 国标 SVG](assets/promo-compare.png)
