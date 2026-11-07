@@ -134,8 +134,9 @@ Tested against both current Harness lines — the engine suite (8) and the plugi
 |---|---|---|---|
 | 0.1.5-rc.x | 0.1.5-rc.x | 4.0.4 | 3.18.4 |
 | 0.2.0-rc.2 | 0.2.0-rc.2 | 4.0.4 | 3.18.4 |
-| **0.2.1-rc.5** (current `latest` / `next`) | 0.2.1-rc.5 | 4.0.5 | 3.18.5 |
-| **0.2.2-alpha.2** (current `alpha`) | 0.2.2-alpha.2 | 4.0.6-alpha.1 | 3.18.6-alpha.1 |
+| 0.2.1-rc.5 | 0.2.1-rc.5 | 4.0.5 | 3.18.5 |
+| **0.2.2-rc.1** (current `latest` / `next`) | 0.2.2-rc.1 | 4.1.0 | 3.19.0 |
+| **0.2.2-alpha.3** (current `alpha`) | 0.2.2-alpha.3 | 4.0.6-alpha.2 | 3.18.6-alpha.2 |
 
 Every `@deepseek-ai/*` package is an **optional peer dependency**: the plugin uses the host's own
 copy, so no second runtime is installed inside the profile. The peer ranges list each Harness line
